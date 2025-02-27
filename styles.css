@@ -1,0 +1,47 @@
+/* カスタムスタイル */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* ヘッダー */
+header {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ナビゲーション */
+nav a {
+  transition: color 0.3s ease-in-out;
+}
+
+/* ボタン */
+button {
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* ヒーローセクション */
+section.bg-amber-50 {
+  background: linear-gradient(to bottom, #fffbeb, #fff3c4);
+}
+
+/* サービスカード */
+.service-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* フッター */
+footer {
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+footer ul li {
+  margin-bottom: 4px;
+}
